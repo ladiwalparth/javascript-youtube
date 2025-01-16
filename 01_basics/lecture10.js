@@ -1,7 +1,7 @@
 "use strict"
 
 // Primitive datatypes occupy stack memory where always a copy is assigned
-// Non Primitive datatypes occupy heap memory where reference is assigned and any changes in one will affect all the variables.
+// Non Primitive datatypes occupy heap memory where its reference is given to new variables, means any changes in one will affect all the variables.
 
 let a = 12
 let b = a
