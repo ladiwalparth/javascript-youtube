@@ -17,6 +17,7 @@ let obj = {
 
 let obj2 = obj;
 
+// we access objects inside object using . operator.
 obj2.email = "parth@harekrishna"
 
 console.table([obj,obj2])
